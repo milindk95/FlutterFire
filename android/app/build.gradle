@@ -35,7 +35,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.sports.super11.flutter_fire"
+        applicationId "com.flutter.fire"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
@@ -47,19 +47,19 @@ android {
     productFlavors {
         local {
             dimension "version"
-            applicationId "com.sports.FlutterFire.local"
+            applicationId "com.flutter.fire.local"
             versionCode 1
             versionName "1.0.15"
         }
         staging {
             dimension "version"
-            applicationId "com.sports.FlutterFire.staging"
+            applicationId "com.flutter.fire.staging"
             versionCode 1
             versionName "1.0.15"
         }
         live {
             dimension "version"
-            applicationId "com.sports.FlutterFire"
+            applicationId "com.flutter.fire"
             versionCode 1
             versionName "1.0.15"
         }

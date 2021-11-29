@@ -1,4 +1,4 @@
-package com.sports.super11.flutter_fire
+package com.flutter.fire
 
 import io.flutter.embedding.android.FlutterActivity
 

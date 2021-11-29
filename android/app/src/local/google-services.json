@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:664714248611:android:a4b7f71e28d31974505a16",
         "android_client_info": {
-          "package_name": "com.sports.super11.flutter_fire"
+          "package_name": "com.flutter.fire"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "664714248611-hntor0le4o101h48crn9m4nc8hlnn5jm.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.sports.super11.FlutterFire"
+                "bundle_id": "com.flutter.fire"
               }
             }
           ]
@@ -45,7 +45,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:664714248611:android:7ab597ebb06aa181505a16",
         "android_client_info": {
-          "package_name": "com.sports.FlutterFire.local"
+          "package_name": "com.flutter.fire.local"
         }
       },
       "oauth_client": [
@@ -70,7 +70,7 @@
               "client_id": "664714248611-hntor0le4o101h48crn9m4nc8hlnn5jm.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.sports.super11.FlutterFire"
+                "bundle_id": "com.flutter.fire"
               }
             }
           ]

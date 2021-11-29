@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:150015960514:android:bdd1b8a9377f32f53c225b",
         "android_client_info": {
-          "package_name": "com.sports.FlutterFire.staging"
+          "package_name": "com.flutter.fire.staging"
         }
       },
       "oauth_client": [
