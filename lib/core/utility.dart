@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:package_info/package_info.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/core/preferences.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/ui/screens/auth/login_sign_up_screen.dart';
-import 'package:the_super11/ui/screens/home/home_screen.dart';
+import 'package:flutter_fire/core/preferences.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/ui/screens/auth/login_sign_up_screen.dart';
+import 'package:flutter_fire/ui/screens/home/home_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Utility {

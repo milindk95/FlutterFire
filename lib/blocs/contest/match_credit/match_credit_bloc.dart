@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/contest/match_credit_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/contest/match_credit_repository.dart';
 
 part 'match_credit_event.dart';
 part 'match_credit_state.dart';

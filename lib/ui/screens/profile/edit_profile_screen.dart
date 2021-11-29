@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/profile/edit_profile/edit_profile_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/profile/edit_profile/edit_profile_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class EditProfileScreen extends StatefulWidget {
   static const route = '/edit-profile';

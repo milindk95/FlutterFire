@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/blocs/profile/verification/upload_pan_card/upload_pan_card_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/profile/verification/upload_pan_card/upload_pan_card_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class PanCardScreen extends StatefulWidget {
   static const route = '/pan-card-details';
@@ -65,7 +65,7 @@ class _PanCardScreenState extends State<PanCardScreen> {
                       ),
                       Expanded(
                         child: Text(
-                          'Your PAN card is verified by TheSuper11',
+                          'Your PAN card is verified by FlutterFire',
                         ),
                       )
                     ],

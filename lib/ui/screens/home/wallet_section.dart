@@ -2,17 +2,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/blocs/profile/user_profile/user_profile_bloc.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/commons/coming_soon_screen.dart';
-import 'package:the_super11/ui/screens/wallet/add_money_screen.dart';
-import 'package:the_super11/ui/screens/wallet/my_referral_screen.dart';
-import 'package:the_super11/ui/screens/wallet/offer_screen.dart';
-import 'package:the_super11/ui/screens/wallet/transaction_history_screen.dart';
-import 'package:the_super11/ui/screens/wallet/withdraw_money_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/profile/user_profile/user_profile_bloc.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/commons/coming_soon_screen.dart';
+import 'package:flutter_fire/ui/screens/wallet/add_money_screen.dart';
+import 'package:flutter_fire/ui/screens/wallet/my_referral_screen.dart';
+import 'package:flutter_fire/ui/screens/wallet/offer_screen.dart';
+import 'package:flutter_fire/ui/screens/wallet/transaction_history_screen.dart';
+import 'package:flutter_fire/ui/screens/wallet/withdraw_money_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class WalletSection extends StatefulWidget {
   const WalletSection({Key? key}) : super(key: key);

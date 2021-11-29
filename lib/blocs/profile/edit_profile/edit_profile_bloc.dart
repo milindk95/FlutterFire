@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/profile/edit_profile_repository.dart';
+import 'package:flutter_fire/repository/profile/edit_profile_repository.dart';
 
 part 'edit_profile_event.dart';
 

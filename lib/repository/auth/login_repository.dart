@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:the_super11/core/api/api_handler.dart';
-import 'package:the_super11/core/preferences.dart';
-import 'package:the_super11/core/utility.dart';
+import 'package:flutter_fire/core/api/api_handler.dart';
+import 'package:flutter_fire/core/preferences.dart';
+import 'package:flutter_fire/core/utility.dart';
 
 class LoginRepository {
   Future<ApiResponse<Map<String, dynamic>>> login(

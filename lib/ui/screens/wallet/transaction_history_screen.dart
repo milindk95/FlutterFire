@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:the_super11/blocs/wallet/transaction_history/transaction_history_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/wallet/transaction_history/transaction_history_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class TransactionHistoryScreen extends StatefulWidget {
   static const route = '/transaction-history';

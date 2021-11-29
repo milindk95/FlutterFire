@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/wallet/my_referral/my_referral_bloc.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/wallet/my_referral/my_referral_bloc.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class MyReferralScreen extends StatefulWidget {
   static const route = '/my-referral';

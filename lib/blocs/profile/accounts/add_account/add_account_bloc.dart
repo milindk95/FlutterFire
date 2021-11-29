@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/core/api/api_handler.dart';
-import 'package:the_super11/repository/profile/user_accounts_repository.dart';
+import 'package:flutter_fire/core/api/api_handler.dart';
+import 'package:flutter_fire/repository/profile/user_accounts_repository.dart';
 
 part 'add_account_event.dart';
 part 'add_account_state.dart';

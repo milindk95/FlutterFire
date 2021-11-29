@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/blocs/app_update/app_update_bloc.dart';
-import 'package:the_super11/blocs/contest/all_contests/all_contests_bloc.dart';
-import 'package:the_super11/blocs/contest/create_contest/create_contest_bloc.dart';
-import 'package:the_super11/blocs/contest/join_contest/join_contest_bloc.dart';
-import 'package:the_super11/blocs/contest/user_contests/user_contests_bloc.dart';
-import 'package:the_super11/blocs/matches/all_upcoming_matches/all_upcoming_matches_bloc.dart';
-import 'package:the_super11/blocs/matches/image_data/image_data_bloc.dart';
-import 'package:the_super11/blocs/matches/my_teams/my_teams_bloc.dart';
-import 'package:the_super11/blocs/matches/recent_matches/recent_matches_bloc.dart';
-import 'package:the_super11/blocs/matches/score_details/score_details_bloc.dart';
-import 'package:the_super11/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
-import 'package:the_super11/blocs/theme/theme_bloc.dart';
+import 'package:flutter_fire/blocs/app_update/app_update_bloc.dart';
+import 'package:flutter_fire/blocs/contest/all_contests/all_contests_bloc.dart';
+import 'package:flutter_fire/blocs/contest/create_contest/create_contest_bloc.dart';
+import 'package:flutter_fire/blocs/contest/join_contest/join_contest_bloc.dart';
+import 'package:flutter_fire/blocs/contest/user_contests/user_contests_bloc.dart';
+import 'package:flutter_fire/blocs/matches/all_upcoming_matches/all_upcoming_matches_bloc.dart';
+import 'package:flutter_fire/blocs/matches/image_data/image_data_bloc.dart';
+import 'package:flutter_fire/blocs/matches/my_teams/my_teams_bloc.dart';
+import 'package:flutter_fire/blocs/matches/recent_matches/recent_matches_bloc.dart';
+import 'package:flutter_fire/blocs/matches/score_details/score_details_bloc.dart';
+import 'package:flutter_fire/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
+import 'package:flutter_fire/blocs/theme/theme_bloc.dart';
 
 class GlobalBlocProvider extends MultiProvider {
   GlobalBlocProvider({Key? key, required Widget child})

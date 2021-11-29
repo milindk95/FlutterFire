@@ -3,7 +3,7 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:the_super11/core/preferences.dart';
+import 'package:flutter_fire/core/preferences.dart';
 
 class FirebaseServices {
   final _plugin = FlutterLocalNotificationsPlugin();

@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:the_super11/core/api/api_handler.dart';
+import 'package:flutter_fire/core/api/api_handler.dart';
 
 class SetNewPasswordRepository {
   Future<ApiResponse<String>> setNewPassword(Map<String, dynamic> body) async {

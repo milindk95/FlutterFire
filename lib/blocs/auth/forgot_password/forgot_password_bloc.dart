@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/core/api/api_handler.dart';
-import 'package:the_super11/repository/auth/forgot_password_repository.dart';
+import 'package:flutter_fire/core/api/api_handler.dart';
+import 'package:flutter_fire/repository/auth/forgot_password_repository.dart';
 
 part 'forgot_password_event.dart';
 part 'forgot_password_state.dart';

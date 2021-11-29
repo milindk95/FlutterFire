@@ -1,4 +1,4 @@
-import 'package:the_super11/core/extensions.dart';
+import 'package:flutter_fire/core/extensions.dart';
 
 class MyMatch {
   MyMatch({

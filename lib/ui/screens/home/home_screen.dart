@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:the_super11/blocs/matches/my_matches/my_matches_bloc.dart';
-import 'package:the_super11/blocs/profile/user_profile/user_profile_bloc.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/home/home_section.dart';
-import 'package:the_super11/ui/screens/home/my_matches_section.dart';
-import 'package:the_super11/ui/screens/home/settings_section.dart';
-import 'package:the_super11/ui/screens/home/wallet_section.dart';
+import 'package:flutter_fire/blocs/matches/my_matches/my_matches_bloc.dart';
+import 'package:flutter_fire/blocs/profile/user_profile/user_profile_bloc.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/home/home_section.dart';
+import 'package:flutter_fire/ui/screens/home/my_matches_section.dart';
+import 'package:flutter_fire/ui/screens/home/settings_section.dart';
+import 'package:flutter_fire/ui/screens/home/wallet_section.dart';
 
 class HomeScreen extends StatefulWidget {
   static const route = '/home';

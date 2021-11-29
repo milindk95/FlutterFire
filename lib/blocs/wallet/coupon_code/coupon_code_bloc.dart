@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/wallet/coupon_code_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/wallet/coupon_code_repository.dart';
 
 part 'coupon_code_event.dart';
 part 'coupon_code_state.dart';

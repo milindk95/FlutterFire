@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/wallet/offers/offers_bloc.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/wallet/offer_details_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/wallet/offers/offers_bloc.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/wallet/offer_details_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class OfferScreenData {
   final bool applyOffer;

@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/models/models.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/models/models.dart';
 
 class MyTeam {
   MyTeam({

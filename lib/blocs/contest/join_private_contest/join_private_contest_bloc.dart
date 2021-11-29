@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/contest/join_contest_repository.dart';
+import 'package:flutter_fire/repository/contest/join_contest_repository.dart';
 
 part 'join_private_contest_event.dart';
 part 'join_private_contest_state.dart';

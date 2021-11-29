@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:the_super11/core/extensions.dart';
+import 'package:flutter_fire/core/extensions.dart';
 
 class AppTooltip extends StatefulWidget {
   final String message;

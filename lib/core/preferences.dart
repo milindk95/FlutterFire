@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:the_super11/models/models.dart';
+import 'package:flutter_fire/models/models.dart';
 
 class Preference {
   static const String _prefTheme = 'pref_theme';

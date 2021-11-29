@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:the_super11/blocs/matches/my_matches/my_matches_bloc.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/contest/contest_list_screen.dart';
-import 'package:the_super11/ui/screens/home/match_item.dart';
-import 'package:the_super11/ui/screens/match/match_details_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/matches/my_matches/my_matches_bloc.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/contest/contest_list_screen.dart';
+import 'package:flutter_fire/ui/screens/home/match_item.dart';
+import 'package:flutter_fire/ui/screens/match/match_details_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class MyMatchesSection extends StatefulWidget {
   const MyMatchesSection({Key? key}) : super(key: key);

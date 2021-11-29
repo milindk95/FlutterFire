@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:the_super11/core/api/api_handler.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
+import 'package:flutter_fire/core/api/api_handler.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
 
 class SignUpRepository {
   Future<ApiResponse<User>> signUp(Map<String, dynamic> body) async {

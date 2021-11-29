@@ -2,17 +2,17 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/contest/contest_details/contest_details_bloc.dart';
-import 'package:the_super11/blocs/contest/leaderboard/leaderboard_bloc.dart';
-import 'package:the_super11/blocs/matches/match_point/match_point_bloc.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/contest/ranking_list.dart';
-import 'package:the_super11/ui/screens/match/live_or_complete_leaderboard.dart';
-import 'package:the_super11/ui/screens/match/match_score_view.dart';
-import 'package:the_super11/ui/screens/match/player_stats.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/contest/contest_details/contest_details_bloc.dart';
+import 'package:flutter_fire/blocs/contest/leaderboard/leaderboard_bloc.dart';
+import 'package:flutter_fire/blocs/matches/match_point/match_point_bloc.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/contest/ranking_list.dart';
+import 'package:flutter_fire/ui/screens/match/live_or_complete_leaderboard.dart';
+import 'package:flutter_fire/ui/screens/match/match_score_view.dart';
+import 'package:flutter_fire/ui/screens/match/player_stats.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class JoinedContestDetailsScreenData {
   final Contest contest;

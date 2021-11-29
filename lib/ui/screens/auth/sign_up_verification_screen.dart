@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/auth/sign_up_verification/sign_up_verification_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/ui/screens/home/home_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/auth/sign_up_verification/sign_up_verification_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/ui/screens/home/home_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class SignUpVerificationData {
   final String userId;

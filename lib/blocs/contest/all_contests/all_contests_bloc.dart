@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/contest/contest_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/contest/contest_repository.dart';
 
 part 'all_contests_event.dart';
 part 'all_contests_state.dart';

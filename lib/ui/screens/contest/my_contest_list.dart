@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:the_super11/blocs/contest/user_contests/user_contests_bloc.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/contest/contest_details_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/contest/user_contests/user_contests_bloc.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/contest/contest_details_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 import 'contest_item.dart';
 

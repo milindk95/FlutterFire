@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/ui/screens/auth/new_password_screen.dart';
-import 'package:the_super11/ui/widgets/submit_button.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/ui/screens/auth/new_password_screen.dart';
+import 'package:flutter_fire/ui/widgets/submit_button.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class OTPScreenData {
   final String mobileNoOrEmail;

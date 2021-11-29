@@ -3,17 +3,17 @@ import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/matches/image_data/image_data_bloc.dart';
-import 'package:the_super11/blocs/matches/joined_contests/joined_contests_bloc.dart';
-import 'package:the_super11/blocs/matches/score_details/score_details_bloc.dart';
-import 'package:the_super11/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/match/joined_contests.dart';
-import 'package:the_super11/ui/screens/match/match_score_view.dart';
-import 'package:the_super11/ui/screens/match/my_teams.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/matches/image_data/image_data_bloc.dart';
+import 'package:flutter_fire/blocs/matches/joined_contests/joined_contests_bloc.dart';
+import 'package:flutter_fire/blocs/matches/score_details/score_details_bloc.dart';
+import 'package:flutter_fire/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/match/joined_contests.dart';
+import 'package:flutter_fire/ui/screens/match/match_score_view.dart';
+import 'package:flutter_fire/ui/screens/match/my_teams.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class MatchDetailsScreen extends StatefulWidget {
   static const route = '/match-details';

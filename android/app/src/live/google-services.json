@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "340176904518",
-    "project_id": "thesuper11-cd5fd",
-    "storage_bucket": "thesuper11-cd5fd.appspot.com"
+    "project_id": "FlutterFire-cd5fd",
+    "storage_bucket": "FlutterFire-cd5fd.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:340176904518:android:61f55afb880218e7560547",
         "android_client_info": {
-          "package_name": "com.sports.thesuper11"
+          "package_name": "com.sports.FlutterFire"
         }
       },
       "oauth_client": [
@@ -34,7 +34,7 @@
               "client_id": "340176904518-o4fr0eb9llcml1e34d6sjego6n3974pl.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.sports.thesuper11"
+                "bundle_id": "com.sports.FlutterFire"
               }
             }
           ]

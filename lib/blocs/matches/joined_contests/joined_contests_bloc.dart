@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/matches/joined_contests_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/matches/joined_contests_repository.dart';
 
 part 'joined_contests_event.dart';
 part 'joined_contests_state.dart';

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:share/share.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/contest/join_contest_dialog.dart';
-import 'package:the_super11/ui/screens/match/max_entry_and_bonus_view.dart';
-import 'package:the_super11/ui/screens/teams/select_team_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/contest/join_contest_dialog.dart';
+import 'package:flutter_fire/ui/screens/match/max_entry_and_bonus_view.dart';
+import 'package:flutter_fire/ui/screens/teams/select_team_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 import 'contest_progress_bar.dart';
 
@@ -260,7 +260,7 @@ class ContestItem extends StatelessWidget {
   void _shareContestCode(BuildContext context) {
     final match = context.read<MatchInfo>().match;
     final message =
-        'Join the contest of ${match.shortName} using contest code "${contest.referralCode}" in TheSuper11. Download the app from $baseUrl';
+        'Join the contest of ${match.shortName} using contest code "${contest.referralCode}" in FlutterFire. Download the app from $baseUrl';
     Share.share(message);
   }
 }

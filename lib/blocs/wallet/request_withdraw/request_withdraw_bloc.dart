@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/wallet/accounts_repository.dart';
+import 'package:flutter_fire/repository/wallet/accounts_repository.dart';
 
 part 'request_withdraw_event.dart';
 

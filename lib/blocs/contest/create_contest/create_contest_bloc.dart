@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/contest/contest_repository.dart';
+import 'package:flutter_fire/repository/contest/contest_repository.dart';
 
 part 'create_contest_event.dart';
 part 'create_contest_state.dart';

@@ -5,10 +5,10 @@ import 'dart:io';
 
 import 'package:http/http.dart';
 import 'package:http_parser/http_parser.dart';
-import 'package:the_super11/core/preferences.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/main.dart';
-import 'package:the_super11/ui/screens/auth/login_sign_up_screen.dart';
+import 'package:flutter_fire/core/preferences.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/main.dart';
+import 'package:flutter_fire/ui/screens/auth/login_sign_up_screen.dart';
 
 part 'api_response.dart';
 

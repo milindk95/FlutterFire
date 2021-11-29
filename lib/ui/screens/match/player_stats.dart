@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:the_super11/blocs/matches/image_data/image_data_bloc.dart';
-import 'package:the_super11/blocs/matches/match_point/match_point_bloc.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/match/all_players_stats_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/matches/image_data/image_data_bloc.dart';
+import 'package:flutter_fire/blocs/matches/match_point/match_point_bloc.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/match/all_players_stats_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class PlayerStats extends StatefulWidget {
   const PlayerStats({Key? key}) : super(key: key);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:the_super11/models/models.dart';
+import 'package:flutter_fire/models/models.dart';
 
 class RankingList extends StatefulWidget {
   final Contest contest;

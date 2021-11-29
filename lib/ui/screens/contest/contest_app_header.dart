@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/ui/screens/home/match_timer.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/ui/screens/home/match_timer.dart';
 
 import 'add_money_dialog.dart';
 

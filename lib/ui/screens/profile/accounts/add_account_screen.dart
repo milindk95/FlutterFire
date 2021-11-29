@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/profile/accounts/add_account/add_account_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/profile/accounts/add_account/add_account_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class AddAccountScreen extends StatefulWidget {
   static const route = '/add-account';

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/contest/join_private_contest/join_private_contest_bloc.dart';
-import 'package:the_super11/blocs/contest/user_contests/user_contests_bloc.dart';
-import 'package:the_super11/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/ui/screens/contest/contest_app_header.dart';
-import 'package:the_super11/ui/screens/teams/select_team_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/contest/join_private_contest/join_private_contest_bloc.dart';
+import 'package:flutter_fire/blocs/contest/user_contests/user_contests_bloc.dart';
+import 'package:flutter_fire/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/ui/screens/contest/contest_app_header.dart';
+import 'package:flutter_fire/ui/screens/teams/select_team_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class JoinContestScreen extends StatefulWidget {
   static const route = '/join-private-contest';

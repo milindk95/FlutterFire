@@ -4,8 +4,8 @@ import 'dart:io';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:package_info/package_info.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/app_update/app_update_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/app_update/app_update_repository.dart';
 
 part 'app_update_event.dart';
 part 'app_update_state.dart';

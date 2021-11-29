@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:the_super11/blocs/app_update/app_update_bloc.dart';
+import 'package:flutter_fire/blocs/app_update/app_update_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class AndroidAppUpdateScreen extends StatefulWidget {
   static const route = '/android-app-update';

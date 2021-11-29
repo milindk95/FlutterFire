@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/matches/team_details_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/matches/team_details_repository.dart';
 
 part 'compare_team_event.dart';
 part 'compare_team_state.dart';

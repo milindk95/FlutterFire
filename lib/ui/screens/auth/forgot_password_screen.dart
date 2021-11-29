@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/auth/forgot_password/forgot_password_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/auth/forgot_password/forgot_password_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 import 'otp_screen.dart';
 

@@ -1,4 +1,4 @@
-import 'package:the_super11/models/models.dart';
+import 'package:flutter_fire/models/models.dart';
 
 class ContestData {
   ContestData({

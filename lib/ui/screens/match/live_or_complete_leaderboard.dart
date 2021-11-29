@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:the_super11/blocs/contest/leaderboard/leaderboard_bloc.dart';
-import 'package:the_super11/blocs/matches/image_data/image_data_bloc.dart';
-import 'package:the_super11/blocs/matches/score_details/score_details_bloc.dart';
-import 'package:the_super11/blocs/team/team_details/team_details_bloc.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/match/team_preview_screen.dart';
-import 'package:the_super11/ui/screens/teams/compare_team_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/contest/leaderboard/leaderboard_bloc.dart';
+import 'package:flutter_fire/blocs/matches/image_data/image_data_bloc.dart';
+import 'package:flutter_fire/blocs/matches/score_details/score_details_bloc.dart';
+import 'package:flutter_fire/blocs/team/team_details/team_details_bloc.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/match/team_preview_screen.dart';
+import 'package:flutter_fire/ui/screens/teams/compare_team_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class LiveORCompleteLeaderboard extends StatefulWidget {
   const LiveORCompleteLeaderboard({Key? key}) : super(key: key);

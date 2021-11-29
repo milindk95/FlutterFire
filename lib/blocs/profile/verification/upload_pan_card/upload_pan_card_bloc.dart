@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/profile/verification/upload_pan_card_repository.dart';
+import 'package:flutter_fire/repository/profile/verification/upload_pan_card_repository.dart';
 
 part 'upload_pan_card_event.dart';
 part 'upload_pan_card_state.dart';

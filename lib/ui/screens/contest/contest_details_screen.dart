@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/contest/leaderboard_list.dart';
-import 'package:the_super11/ui/screens/contest/ranking_list.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/contest/leaderboard_list.dart';
+import 'package:flutter_fire/ui/screens/contest/ranking_list.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 import 'contest_app_header.dart';
 import 'contest_item.dart';

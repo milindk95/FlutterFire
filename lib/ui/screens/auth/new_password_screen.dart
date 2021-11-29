@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/auth/set_new_password/set_new_password_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/auth/login_sign_up_screen.dart';
-import 'package:the_super11/ui/widgets/app_text_field.dart';
-import 'package:the_super11/ui/widgets/submit_button.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/auth/set_new_password/set_new_password_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/auth/login_sign_up_screen.dart';
+import 'package:flutter_fire/ui/widgets/app_text_field.dart';
+import 'package:flutter_fire/ui/widgets/submit_button.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 import 'otp_screen.dart';
 

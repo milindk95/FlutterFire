@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/blocs/matches/score_details/score_details_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/home/match_status_live.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/matches/score_details/score_details_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/home/match_status_live.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class MatchScoreView extends StatefulWidget {
   const MatchScoreView({Key? key}) : super(key: key);

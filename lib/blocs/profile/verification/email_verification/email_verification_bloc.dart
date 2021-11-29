@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/profile/verification/email_verification_repository.dart';
+import 'package:flutter_fire/repository/profile/verification/email_verification_repository.dart';
 
 part 'email_verification_event.dart';
 

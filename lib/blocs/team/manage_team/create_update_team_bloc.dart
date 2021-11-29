@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/team/create_update_team_repository.dart';
+import 'package:flutter_fire/repository/team/create_update_team_repository.dart';
 
 part 'create_update_team_event.dart';
 part 'create_update_team_state.dart';

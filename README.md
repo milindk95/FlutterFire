@@ -21,7 +21,7 @@ With local server API url | Staging server url: http://staging.com/api/v1/ | Liv
 Steps to set all environments
   * Go to Edit Configurations
   * Add Flutter and name it `main:local`
-  * Set Dart entrypoint : `../the_super11/lib/main_local.dart`
+  * Set Dart entrypoint : `../flutter_fire/lib/main_local.dart`
   * Set Additional run args: `--flavor live`
   * Repeat for local and staging flavor
 

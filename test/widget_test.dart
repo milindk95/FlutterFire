@@ -8,13 +8,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:the_super11/main.dart';
-import 'package:the_super11/ui/resources/resources.dart';
+import 'package:flutter_fire/main.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(TheSuper11App(apiUrl: stagingUrl));
+    await tester.pumpWidget(FlutterFireApp(apiUrl: stagingUrl));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

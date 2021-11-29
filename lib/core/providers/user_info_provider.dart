@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:the_super11/core/preferences.dart';
-import 'package:the_super11/models/models.dart';
+import 'package:flutter_fire/core/preferences.dart';
+import 'package:flutter_fire/models/models.dart';
 
 class UserInfo with ChangeNotifier {
   late User _user;

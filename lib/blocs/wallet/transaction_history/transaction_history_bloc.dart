@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/wallet/transaction_history_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/wallet/transaction_history_repository.dart';
 
 part 'transaction_history_event.dart';
 part 'transaction_history_state.dart';

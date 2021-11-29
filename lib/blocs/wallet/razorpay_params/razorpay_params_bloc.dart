@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
-import 'package:the_super11/core/preferences.dart';
-import 'package:the_super11/repository/wallet/add_money_repository.dart';
+import 'package:flutter_fire/core/preferences.dart';
+import 'package:flutter_fire/repository/wallet/add_money_repository.dart';
 
 part 'razorpay_params_event.dart';
 part 'razorpay_params_state.dart';
@@ -32,7 +32,7 @@ class RazorpayParamsBloc
           'amount': params.amount,
           'name': user?.teamName ?? '',
           'order_id': params.id,
-          'description': "Add Money to TheSuper11 Wallet",
+          'description': "Add Money to FlutterFire Wallet",
           'prefill': {
             'contact': user?.mobile ?? '',
             'email': user?.email ?? ''

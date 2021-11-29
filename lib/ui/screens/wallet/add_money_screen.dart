@@ -6,13 +6,13 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
-import 'package:the_super11/blocs/wallet/coupon_code/coupon_code_bloc.dart';
-import 'package:the_super11/blocs/wallet/razorpay_params/razorpay_params_bloc.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/wallet/offer_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/wallet/coupon_code/coupon_code_bloc.dart';
+import 'package:flutter_fire/blocs/wallet/razorpay_params/razorpay_params_bloc.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/wallet/offer_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class AddMoneyScreenData {
   final int amount;

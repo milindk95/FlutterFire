@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/contest/contest_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/contest/contest_repository.dart';
 
 part 'user_contests_event.dart';
 part 'user_contests_state.dart';

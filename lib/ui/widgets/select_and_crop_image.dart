@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:the_super11/core/permissions.dart';
-import 'package:the_super11/ui/resources/resources.dart';
+import 'package:flutter_fire/core/permissions.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
 
 class ImageUtils {
   final BuildContext _context;

@@ -4,14 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/blocs/app_update/app_update_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/firebase_services.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/onboard/android_app_update_screen.dart';
-import 'package:the_super11/ui/screens/onboard/ios_app_update_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/app_update/app_update_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/firebase_services.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/onboard/android_app_update_screen.dart';
+import 'package:flutter_fire/ui/screens/onboard/ios_app_update_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

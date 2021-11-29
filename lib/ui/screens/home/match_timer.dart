@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/blocs/matches/all_upcoming_matches/all_upcoming_matches_bloc.dart';
-import 'package:the_super11/core/utility.dart';
+import 'package:flutter_fire/blocs/matches/all_upcoming_matches/all_upcoming_matches_bloc.dart';
+import 'package:flutter_fire/core/utility.dart';
 
 class MatchTimer extends StatefulWidget {
   final String startTime;

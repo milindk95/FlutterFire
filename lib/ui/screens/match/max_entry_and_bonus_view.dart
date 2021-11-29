@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class MaxEntryAndBonusView extends StatelessWidget {
   final Contest contest;

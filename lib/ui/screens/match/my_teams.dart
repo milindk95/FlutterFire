@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:the_super11/blocs/matches/image_data/image_data_bloc.dart';
-import 'package:the_super11/blocs/matches/my_teams/my_teams_bloc.dart';
-import 'package:the_super11/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/providers/match_info_provider.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/match/team_preview_screen.dart';
-import 'package:the_super11/ui/screens/teams/create_team_screen.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/matches/image_data/image_data_bloc.dart';
+import 'package:flutter_fire/blocs/matches/my_teams/my_teams_bloc.dart';
+import 'package:flutter_fire/blocs/matches/team_and_contest_count/team_and_contest_count_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/providers/match_info_provider.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/match/team_preview_screen.dart';
+import 'package:flutter_fire/ui/screens/teams/create_team_screen.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class MyTeams extends StatefulWidget {
   final double topPadding;

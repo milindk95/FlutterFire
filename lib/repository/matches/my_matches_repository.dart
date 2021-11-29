@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:the_super11/core/api/api_handler.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
+import 'package:flutter_fire/core/api/api_handler.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
 
 class MyMatchesRepository {
   Future<ApiResponse<List<MyMatch>>> getMyMatches({

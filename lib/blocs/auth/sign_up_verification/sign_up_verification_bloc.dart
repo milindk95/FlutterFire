@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/preferences.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/auth/sign_up_verification_repository.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/preferences.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/auth/sign_up_verification_repository.dart';
 
 part 'sign_up_verification_event.dart';
 part 'sign_up_verification_state.dart';

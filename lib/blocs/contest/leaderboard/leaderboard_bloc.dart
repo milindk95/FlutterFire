@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/contest/leaderboard_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/contest/leaderboard_repository.dart';
 
 part 'leaderboard_event.dart';
 part 'leaderboard_state.dart';

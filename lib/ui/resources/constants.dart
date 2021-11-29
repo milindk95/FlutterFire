@@ -1,7 +1,7 @@
 part of 'resources.dart';
 
 /// API URL
-const liveUrl = 'https://api.thesuper11.com/api/v1/';
+const liveUrl = 'https://api.FlutterFire.com/api/v1/';
 const stagingUrl = 'http://35.154.225.92/api/v1/';
 const localUrl = 'http://192.168.1.24:5000/api/v1/';
 
@@ -9,7 +9,7 @@ const localUrl = 'http://192.168.1.24:5000/api/v1/';
 const passwordError = 'Password requires at least 6 characters';
 
 /// URL
-const baseUrl = 'https://thesuper11.com/';
+const baseUrl = 'https://FlutterFire.com/';
 const aboutUsUrl = baseUrl + 'about.html';
 const howToPlayUrl = baseUrl + 'how-to-play-cricket.html';
 const howToWithdrawUrl = baseUrl + 'how-to-withdraw.html';
@@ -18,8 +18,8 @@ const termsAndConditionsUrl = baseUrl + 'terms-and-conditions.html';
 const privacyPolicyUrl = baseUrl + 'privacy-policy.html';
 const helpUrl = baseUrl + 'help.html';
 const howToInstallUrl = baseUrl + 'how-to-Install.html';
-const appStoreUrl = 'https://apps.apple.com/in/app/thesuper11/id1562642636';
-const androidApkUrl = baseUrl + 'download/thesuper11.apk';
+const appStoreUrl = 'https://apps.apple.com/in/app/FlutterFire/id1562642636';
+const androidApkUrl = baseUrl + 'download/FlutterFire.apk';
 
 /// Confirmations
 String getConfirmation(String type, String mobileNoOrEmail) =>
@@ -28,8 +28,8 @@ String getConfirmation(String type, String mobileNoOrEmail) =>
 /// Share
 String getShareMessage(String referralCode, {bool whatsapp = false}) =>
     howToInstallUrl +
-    "\nJoin the TheSuper11 community by simply downloading our application from above link. "
-        "On joining, earn up to ₹100 Rewards in your TheSuper11 wallet as a joining reward. "
+    "\nJoin the FlutterFire community by simply downloading our application from above link. "
+        "On joining, earn up to ₹100 Rewards in your FlutterFire wallet as a joining reward. "
         "\nUse Referral Code: " +
     (whatsapp ? '*$referralCode*' : referralCode);
 

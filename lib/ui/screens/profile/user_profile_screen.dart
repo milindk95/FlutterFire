@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/blocs/profile/upload_photo/upload_photo_bloc.dart';
-import 'package:the_super11/blocs/profile/user_profile/user_profile_bloc.dart';
-import 'package:the_super11/core/extensions.dart';
-import 'package:the_super11/core/preferences.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/core/utility.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/ui/resources/resources.dart';
-import 'package:the_super11/ui/screens/profile/accounts/all_accounts_screen.dart';
-import 'package:the_super11/ui/screens/profile/edit_profile_screen.dart';
-import 'package:the_super11/ui/screens/profile/email_verification_screen.dart';
-import 'package:the_super11/ui/screens/profile/pan_card_screen.dart';
-import 'package:the_super11/ui/widgets/app_header.dart';
-import 'package:the_super11/ui/widgets/snackbar/top_snack_bar.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/blocs/profile/upload_photo/upload_photo_bloc.dart';
+import 'package:flutter_fire/blocs/profile/user_profile/user_profile_bloc.dart';
+import 'package:flutter_fire/core/extensions.dart';
+import 'package:flutter_fire/core/preferences.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/core/utility.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/ui/resources/resources.dart';
+import 'package:flutter_fire/ui/screens/profile/accounts/all_accounts_screen.dart';
+import 'package:flutter_fire/ui/screens/profile/edit_profile_screen.dart';
+import 'package:flutter_fire/ui/screens/profile/email_verification_screen.dart';
+import 'package:flutter_fire/ui/screens/profile/pan_card_screen.dart';
+import 'package:flutter_fire/ui/widgets/app_header.dart';
+import 'package:flutter_fire/ui/widgets/snackbar/top_snack_bar.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class UserProfileScreen extends StatefulWidget {
   static const route = '/user-profile';
@@ -313,14 +313,14 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
           context.showAlert(
             title: 'Mobile Verified',
             message:
-                'Your mobile number "${user.mobile}" is verified by TheSuper11',
+                'Your mobile number "${user.mobile}" is verified by FlutterFire',
           );
         break;
       case 1:
         if (user.validEmail)
           context.showAlert(
             title: 'Email Verified',
-            message: 'Your email "${user.email}" is verified by TheSuper11',
+            message: 'Your email "${user.email}" is verified by FlutterFire',
           );
         else
           context.showConfirmation(

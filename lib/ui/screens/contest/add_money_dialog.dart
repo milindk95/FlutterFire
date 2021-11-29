@@ -1,8 +1,8 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:the_super11/core/providers/user_info_provider.dart';
-import 'package:the_super11/ui/screens/wallet/add_money_screen.dart';
+import 'package:flutter_fire/core/providers/user_info_provider.dart';
+import 'package:flutter_fire/ui/screens/wallet/add_money_screen.dart';
 
 Future<bool?> showAddMoneyDialog(BuildContext context) {
   final user = context.read<UserInfo>().user;

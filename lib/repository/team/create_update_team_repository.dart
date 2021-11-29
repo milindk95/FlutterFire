@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:the_super11/core/api/api_handler.dart';
+import 'package:flutter_fire/core/api/api_handler.dart';
 
 class CreateUpdateTeamRepository {
   Future<ApiResponse<String>> createTeam(Map<String, dynamic> body) async {

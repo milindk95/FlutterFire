@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:the_super11/models/models.dart';
-import 'package:the_super11/repository/matches/all_upcoming_matches_repository.dart';
+import 'package:flutter_fire/models/models.dart';
+import 'package:flutter_fire/repository/matches/all_upcoming_matches_repository.dart';
 
 part 'all_upcoming_matches_event.dart';
 part 'all_upcoming_matches_state.dart';

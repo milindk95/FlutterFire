@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:the_super11/ui/widgets/widgets.dart';
+import 'package:flutter_fire/ui/widgets/widgets.dart';
 
 class RefreshHeader extends StatelessWidget {
   const RefreshHeader({Key? key}) : super(key: key);

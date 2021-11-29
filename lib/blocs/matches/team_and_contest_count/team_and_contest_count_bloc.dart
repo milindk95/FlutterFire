@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:the_super11/repository/matches/team_and_contest_count_repository.dart';
+import 'package:flutter_fire/repository/matches/team_and_contest_count_repository.dart';
 
 part 'team_and_contest_count_event.dart';
 part 'team_and_contest_count_state.dart';
