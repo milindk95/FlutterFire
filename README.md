@@ -1,10 +1,10 @@
-# [TheSuper11](https://thesuper11.com/)
+# FlutterFire
 
 Fantasy Cricket App developed in Flutter framework
 
 ## Getting Started
 
-Clone Repository: **git clone https://github.com/NayanBigscal/TheSuper11.git**
+Clone Repository: **git clone https://github.com/milindk95/FlutterFire.git**
 
 Use github token to clone this repository
 
@@ -16,7 +16,7 @@ Use github token to clone this repository
 
 local | staging | live
 ----- | ------- | ----
-With local server API url | Staging server url: http://35.154.225.92/api/v1/ | Live server url: https://api.thesuper11.com/api/v1/
+With local server API url | Staging server url: http://staging.com/api/v1/ | Live server url: https://live.com/api/v1/
 
 Steps to set all environments
   * Go to Edit Configurations
