@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/sports/super11/the_super11/BuildConfig.java
- com.sports.super11.the_super11.BuildConfig

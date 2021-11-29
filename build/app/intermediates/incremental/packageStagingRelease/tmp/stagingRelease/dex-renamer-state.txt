@@ -1,4 +1,0 @@
-#Tue Oct 12 22:52:50 IST 2021
-base.0=/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/dex/stagingRelease/minifyStagingReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
