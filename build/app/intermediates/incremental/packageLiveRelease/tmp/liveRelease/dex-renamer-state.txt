@@ -1,0 +1,4 @@
+#Tue Oct 12 22:49:16 IST 2021
+base.0=/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/dex/liveRelease/minifyLiveReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

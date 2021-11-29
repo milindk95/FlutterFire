@@ -1,0 +1,43 @@
+<variant
+    name="liveRelease"
+    package="com.sports.super11.the_super11"
+    minSdkVersion="21"
+    targetSdkVersion="30"
+    shrinking="true"
+    mergedManifest="/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/merged_manifest/liveRelease/AndroidManifest.xml"
+    manifestMergeReport="/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/outputs/logs/manifest-merger-live-release-report.txt"
+    proguardFiles="/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.0.2:/Users/nayan/Public/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.0.2:proguard-rules.pro"
+    partialResultsDir="/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/lint_vital_partial_results/liveRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/live/AndroidManifest.xml"
+        javaDirectories="src/live/java:src/live/kotlin"
+        resDirectories="src/live/res"
+        assetsDirectories="src/live/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+    <sourceProvider
+        manifest="src/liveRelease/AndroidManifest.xml"
+        javaDirectories="src/liveRelease/java:src/liveRelease/kotlin"
+        resDirectories="src/liveRelease/res"
+        assetsDirectories="src/liveRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <mainArtifact
+      classOutputs="/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/javac/liveRelease/classes:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/tmp/kotlin-classes/liveRelease:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/liveRelease/R.jar"
+      applicationId="com.sports.thesuper11"
+      generatedSourceFolders="/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/generated/ap_generated_sources/liveRelease/out:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/generated/aidl_source_output_dir/liveRelease/out:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/generated/source/buildConfig/live/release:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/generated/renderscript_source_output_dir/liveRelease/out"
+      generatedResourceFolders="/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/generated/crashlytics/res/live/release:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/generated/res/rs/live/release:/Volumes/Hard Disk/BIGSCAL/TheSuper11/build/app/generated/res/resValues/live/release">
+  </mainArtifact>
+</variant>

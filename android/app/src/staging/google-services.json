@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "150015960514",
+    "project_id": "thesuper11-86bfc",
+    "storage_bucket": "thesuper11-86bfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150015960514:android:bdd1b8a9377f32f53c225b",
+        "android_client_info": {
+          "package_name": "com.sports.thesuper11.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150015960514-031d4t3jhjnj7d30tgjcmesmd5u73f6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqfIqR5JJuCHnMA-QGllVr_gJyZ-lAlLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150015960514-031d4t3jhjnj7d30tgjcmesmd5u73f6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
